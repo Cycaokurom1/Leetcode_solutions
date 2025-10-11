@@ -34,4 +34,5 @@ class Solution:
         mini = min(nums[l:])
         while l>0 and nums[l-1]>mini:
             l -= 1
+
         return r - l + 1
